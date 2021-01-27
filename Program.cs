@@ -78,7 +78,8 @@ namespace EmployeePromotion_EasyCaseStudy
             }
             else
             {
-                Console.WriteLine(checkEmployeeName + " is not an employee, kindly check with it");
+                Console.WriteLine(checkEmployeeName + " is not an employee, kindly check with it and Reenter the correct Employee Name");
+                CheckPromotionPosition();
             }
         }
     }
