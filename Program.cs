@@ -66,7 +66,7 @@ namespace EmployeePromotion_EasyCaseStudy
             foreach (var employee in employeeList)
             {
 
-                if (employee.Name == checkEmployeeName)
+                if (employee.Name.ToLower() == checkEmployeeName.ToLower())
                 {
                     promotionPosition = employeeList.IndexOf(employee) + 1;
                 }
